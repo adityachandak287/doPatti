@@ -1,0 +1,33 @@
+{
+  "contractName": "Test",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_age",
+          "type": "uint256"
+        }
+      ],
+      "name": "setAge",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getAge",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
